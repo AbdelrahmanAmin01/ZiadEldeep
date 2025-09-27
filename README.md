@@ -30,14 +30,6 @@ With a focus on **Next.js**, **React.js**, **Tailwind CSS**, and **GraphQL**, I 
 
 ---
 
-## Connect with Me
-
-- [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/ziad-eldeep-21914a216/)
-- [![GitHub](https://img.shields.io/badge/-GitHub-black?logo=github)](https://github.com/ZiadEldeep)
-- [![Twitter](https://img.shields.io/badge/-Twitter-00acee?logo=twitter)](https://twitter.com/ziadeldeep) *(Temporarily disabled)*
-
----
-
 ## 🔧 Technologies & Tools
 
 I am proficient in a variety of **modern technologies** and **tools** that empower me to deliver seamless web experiences, whether it’s developing intuitive user interfaces or building highly performant back-end systems. Below are the key tools and technologies I use daily:
