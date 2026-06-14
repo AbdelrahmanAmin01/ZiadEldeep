@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdelrahman Amin — Medical Student &amp; Education Trainer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Animated Background -->
+    <div class="bg-mesh">
+        <div class="mesh-gradient mesh-1"></div>
+        <div class="mesh-gradient mesh-2"></div>
+        <div class="mesh-gradient mesh-3"></div>
+    </div>
+    <canvas id="particles"></canvas>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-logo">
+            <a href="#home">A.A</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#achievements" class="nav-link">Impact</a>
+            <a href="#certificates" class="nav-link">Certificates</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-badge reveal">
+                <span class="badge-dot"></span>
+                Medical Student · Aswan University
+            </div>
+            <h1 class="hero-name reveal">
+                Abdelrahman<br><span class="name-accent">Amin</span>
+            </h1>
+            <div class="hero-titles reveal">
+                <span class="title-prefix">I am a </span>
+                <span class="typed-text" id="typedText"></span>
+                <span class="typed-cursor">|</span>
+            </div>
+            <p class="hero-description reveal">
+                Passionate about Medical Education, Leadership Development, Healthcare Innovation, and creating meaningful impact through student engagement and lifelong learning.
+            </p>
+            <div class="hero-actions reveal">
+                <a href="#contact" class="btn-primary">
+                    Get in Touch <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#about" class="btn-secondary">
+                    Learn More
+                </a>
+            </div>
+            <div class="hero-socials reveal">
+                <a href="https://www.linkedin.com/in/abdelrahman-amin-794a64276" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.facebook.com/hldkujvds" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="mailto:abdelrahmanamin323@gmail.com" class="social-icon" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Who I Am</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-wrap reveal">
+                    <div class="about-image-frame">
+                        <img src="images/abdelrahman.jpg"
+                        alt="Abdelrahman Amin"
+                        class="about-image"
+                        loading="lazy">
+                        <div class="image-glow"></div>
+                    </div>
+                    <div class="about-tags">
+                        <span class="tag tag-teal"><i class="fas fa-stethoscope"></i> Future Surgeon</span>
+                        <span class="tag tag-purple"><i class="fas fa-chalkboard-teacher"></i> Educator</span>
+                        <span class="tag tag-blue"><i class="fas fa-laptop-code"></i> Tech Enthusiast</span>
+                    </div>
+                </div>
+                <div class="about-text-block reveal">
+                    <h3 class="about-subtitle">Medical Student, Educator & Technology Enthusiast</h3>
+
+                    <p>I am Abdelrahman Amin, a medical student at Aswan University with a passion for medicine, education, and innovation. Beyond my academic journey, I am committed to empowering students, supporting organizational growth, and contributing to meaningful change through leadership and collaboration.</p>
+                    
+                    <p>My involvement in IFMSA and multiple national and international training programs has allowed me to engage in capacity building, educational development, and student empowerment initiatives. These experiences have strengthened my skills in communication, teamwork, problem-solving, and project development.</p>
+                    
+                    <p>In parallel with my medical interests, I actively explore technology, web development, and digital systems. I believe that combining healthcare, education, and innovation can create more accessible, efficient, and sustainable solutions that positively impact both individuals and organizations.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Medical Student, Aswan University</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Aswan, Egypt</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-language"></i>
+                            <span>Arabic &amp; English</span>
+                        </div>
+                    </div>
+                    <a href="cv/Abdelrahman_Amin_CV.pdf"
+                    class="btn-primary"
+                    target="_blank"
+                    download="Abdelrahman_Amin_CV.pdf">
+                     Download CV <i class="fas fa-download"></i>
+                 </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">My Journey</span>
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-tag">Leadership</div>
+                        <h3>PSDD — AMSA Aswan</h3>
+                        <p>Active member and participant in the Professional &amp; Soft Skills Development Division of AMSA Aswan, contributing to educational content design and student training programs.</p>
+                        <div class="timeline-meta">
+                            <i class="fas fa-building"></i> AMSA Aswan
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-tag">Training</div>
+                        <h3>LOMES Camp Participant</h3>
+                        <p>Participated in the Leaders of Medical Education Summer Camp, gaining hands-on experience in advanced medical education methodologies, curriculum design, and leadership strategies.</p>
+                        <div class="timeline-meta">
+                            <i class="fas fa-map-marker-alt"></i> National Program
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-tag">Research</div>
+                        <h3>SRT Participant</h3>
+                        <p>Engaged in the Scientific Research Training program, developing skills in academic research, evidence-based practice, and scholarly writing within the medical field.</p>
+                        <div class="timeline-meta">
+                            <i class="fas fa-flask"></i> Research Track
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-tag">International</div>
+                        <h3>International Trainer Candidate</h3>
+                        <p>Selected as a candidate for international trainer certification, demonstrating excellence in facilitation, public speaking, and cross-cultural medical education delivery.</p>
+                        <div class="timeline-meta">
+                            <i class="fas fa-globe"></i> International Program
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-tag">Organizing</div>
+                        <h3>OC Member — MISSUE</h3>
+                        <p>Served on the Organizing Committee for MISSUE, coordinating logistics, speaker engagement, and participant experience for this major medical student event.</p>
+                        <div class="timeline-meta">
+                            <i class="fas fa-calendar-check"></i> MISSUE Conference
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-tag">Capacity Building</div>
+                        <h3>NTI &amp; GDSC</h3>
+                        <p>Completed multiple specialized trainings in Web devolpment ,Network, Cyber security</p>
+                        <div class="timeline-meta">
+                            <i class="fas fa-award"></i> Multiple Programs
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">What I Do</span>
+                <h2 class="section-title">Core Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-book-medical"></i></div>
+                    <h4>Medical Education</h4>
+                    <p>Designing and delivering impactful medical education experiences</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-microphone-alt"></i></div>
+                    <h4>Public Speaking</h4>
+                    <p>Engaging presentations and confident delivery to diverse audiences</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                    <h4>Training &amp; Facilitation</h4>
+                    <p>Interactive workshop facilitation and experiential learning design</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-crown"></i></div>
+                    <h4>Leadership</h4>
+                    <p>Team leadership, mentoring, and capacity building at all levels</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-chess"></i></div>
+                    <h4>Strategic Planning</h4>
+                    <p>Vision setting, goal alignment, and long-term program development</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+                    <h4>Project Management</h4>
+                    <p>End-to-end planning and execution of educational initiatives</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                    <h4>Web Devolpment</h4>
+                    <p>Front-end Back-end Chat bots Ai</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                    <h4>Web site  Security </h4>
+                    <p>Pentration testing and securing Website through various tools </p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                    <h4>Communication</h4>
+                    <p>Clear, empathetic, and effective communication across contexts</p>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon"><i class="fas fa-users-cog"></i></div>
+                    <h4>Team Management</h4>
+                    <p>Building collaborative, high-performing teams toward shared goals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section achievements-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">My Impact</span>
+                <h2 class="section-title">By the Numbers</h2>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card reveal">
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">Trainings Attended</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">Students Impacted</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">Leadership Positions</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-number" data-target="8">0</div>
+                    <div class="stat-suffix">+</div>
+                    <div class="stat-label">National &amp; International Programs</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section certificates-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Credentials</span>
+                <h2 class="section-title">Certificates &amp; Trainings</h2>
+            </div>
+            <div class="certs-track-wrap reveal">
+                <div class="certs-track" id="certsTrack">
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-flask"></i></div>
+                        <h4>GDSC</h4>
+                        <p>Google devolper student club  </p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-flask"></i></div>
+                        <h4>NTI</h4>
+                        <p>National telecomunication instituite  </p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-globe-africa"></i></div>
+                        <h4>O'SIW</h4>
+                        <p>Online scome integrated workshops>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-campground"></i></div>
+                        <h4>LOMES Camp</h4>
+                        <p>preparing for future medical educations leader</p>
+                    </div>
+                    
+                    
+                    
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-comments"></i></div>
+                        <h4>Communication Skills</h4>
+                        <p>Professional Communication Training</p>
+                    </div>
+                    <!-- Duplicates for infinite scroll -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-flask"></i></div>
+                        <h4>GDSC</h4>
+                        <p>Google devolper student club  </p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-flask"></i></div>
+                        <h4>NTI</h4>
+                        <p>National telecomunication instituite  </p>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-globe-africa"></i></div>
+                        <h4>O'SIW</h4>
+                        <p>Online scome integrated workshops>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-campground"></i></div>
+                        <h4>LOMES Camp</h4>
+                        <p>preparing for future medical educations leader</p>
+                    </div>
+                    
+                    
+                    
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fas fa-comments"></i></div>
+                        <h4>Communication Skills</h4>
+                        <p>Professional Communication Training</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Latest Projects</span>
+                <h2 class="section-title">Projects &amp; Initiatives</h2>
+            </div>
+            <div class="projects-grid">
+
+                <!-- QuizQuest -->
+                <div class="project-card reveal">
+                    <div class="project-media">
+                        <iframe src="https://quiz-quest-henna.vercel.app/" title="QuizQuest" loading="lazy" tabindex="-1"></iframe>
+                        <div class="project-media-overlay">
+                            <a href="https://quiz-quest-henna.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-visit-btn" aria-label="Visit QuizQuest">
+                                <i class="fas fa-external-link-alt"></i> Visit Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-meta-row">
+                            <span class="project-category-badge">Web App</span>
+                            <a href="https://quiz-quest-henna.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="Open QuizQuest">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                        <h3>QuizQuest</h3>
+                        <p>A dynamic quiz platform for creating and taking quizzes. Built with modern web technologies to provide an interactive learning experience.</p>
+                        <div class="project-tech-stack">
+                            <span><i class="fab fa-html5"></i> HTML</span>
+                            <span><i class="fab fa-css3-alt"></i> CSS</span>
+                            <span><i class="fab fa-js"></i> JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sporton -->
+                <div class="project-card reveal">
+                    <div class="project-media project-media--img">
+                        <img src="images/sporton.png" alt="Sporton — LinkedIn for Athletes" loading="lazy">
+                        <div class="project-media-overlay">
+                            <a href="https://sporton.club" target="_blank" rel="noopener noreferrer" class="project-visit-btn" aria-label="Visit Sporton">
+                                <i class="fas fa-external-link-alt"></i> Visit Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-meta-row">
+                            <span class="project-category-badge">Social Platform</span>
+                            <a href="https://sporton.club" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="Open Sporton">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                        <h3>Sporton</h3>
+                        <p>Like LinkedIn, but built for Athletics — connecting athletes, coaches, and sports professionals in a dedicated networking platform.</p>
+                        <div class="project-tech-stack">
+                            <span><i class="fab fa-react"></i> NextJs</span>
+                            <span><i class="fas fa-file-code"></i> TypeScript</span>
+                            <span><i class="fab fa-css3-alt"></i> Tailwind</span>
+                            <span><i class="fas fa-database"></i> MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bezrah -->
+                <div class="project-card reveal">
+                    <div class="project-media project-media--img">
+                        <img src="images/12.png" alt="Bezrah — Urban Farming &amp; Sustainability" loading="lazy">
+                        <div class="project-media-overlay">
+                            <a href="https://bezrah.org" target="_blank" rel="noopener noreferrer" class="project-visit-btn" aria-label="Visit Bezrah">
+                                <i class="fas fa-external-link-alt"></i> Visit Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-meta-row">
+                            <span class="project-category-badge">Sustainability</span>
+                            <a href="https://bezrah.org" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="Open Bezrah">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                        <h3>Bezrah</h3>
+                        <p>Focuses on promoting sustainability through urban farming and sustainable building materials, enhancing quality of life and built environments.</p>
+                        <div class="project-tech-stack">
+                            <span><i class="fab fa-react"></i> NextJs</span>
+                            <span><i class="fas fa-file-code"></i> TypeScript</span>
+                            <span><i class="fab fa-css3-alt"></i> Tailwind</span>
+                            <span><i class="fas fa-database"></i> MySQL</span>
+                        </div>
+                    </div>
+                </div>
+<!-- END -->
+<div class="project-card reveal">
+    <div class="project-media project-media--img">
+        <img src="images/end.png" alt="END AI Platform" loading="lazy">
+        <div class="project-media-overlay">
+            <a href="https://end-lyart.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-visit-btn" aria-label="Visit END">
+                <i class="fas fa-external-link-alt"></i> Visit Project
+            </a>
+        </div>
+    </div>
+    <div class="project-body">
+        <div class="project-meta-row">
+            <span class="project-category-badge">AI Platform</span>
+            <a href="https://end-lyart.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="Open END">
+                <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+        </div>
+        <h3>END</h3>
+        <p>An AI-powered content creation platform featuring intelligent writing assistance, AI chat capabilities, content generation tools, and a modern Arabic-first experience.</p>
+        <div class="project-tech-stack">
+            <span><i class="fab fa-react"></i> ReactJs</span>
+            <span><i class="fas fa-file-code"></i> TypeScript</span>
+            <span><i class="fab fa-css3-alt"></i> Tailwind</span>
+            <span><i class="fab fa-js"></i> JavaScript</span>
+        </div>
+    </div>
+</div>
+<!-- V Clinic -->
+<div class="project-card reveal">
+    <div class="project-media project-media--img">
+        <img src="images/v-clinic.png" alt="V Clinic Medical Platform" loading="lazy">
+        <div class="project-media-overlay">
+            <a href="https://v-clinic-2fhm.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-visit-btn" aria-label="Visit V Clinic">
+                <i class="fas fa-external-link-alt"></i> Visit Project
+            </a>
+        </div>
+    </div>
+    <div class="project-body">
+        <div class="project-meta-row">
+            <span class="project-category-badge">Medical Platform</span>
+            <a href="https://v-clinic-2fhm.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="Open V Clinic">
+                <i class="fas fa-arrow-up-right-from-square"></i>
+            </a>
+        </div>
+        <h3>V Clinic</h3>
+        <p>A modern digital healthcare platform designed to showcase medical services, improve patient engagement, and provide a seamless clinic experience.</p>
+        <div class="project-tech-stack">
+            <span><i class="fab fa-react"></i> ReactJs</span>
+            <span><i class="fas fa-file-code"></i> TypeScript</span>
+            <span><i class="fab fa-css3-alt"></i> Tailwind</span>
+            <span><i class="fab fa-js"></i> JavaScript</span>
+        </div>
+    </div>
+</div>
+                <!-- kkagle -->
+                <div class="project-card reveal">
+                    <div class="project-media project-media--img">
+                        <img src="images/kkagle.png" alt="5amila — Hair Transplant Platform" loading="lazy">
+                        <div class="project-media-overlay">
+                            <a href="https://kkang.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-visit-btn" aria-label="Visit 5amila">
+                                <i class="fas fa-external-link-alt"></i> Visit Project
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-meta-row">
+                            <span class="project-category-badge">Healthcare</span>
+                            <a href="https://kkang.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="Open 5amila">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                        <h3>kkang</h3>
+                        <p>A modern health care platform a focus on user experience , and keeping life safe ,BLS, CPR
+                        <p>An AI-powered brainstorming tool for team bonding activities — helping teams ideate, plan, and explore creative solutions for retreats and workshops.</p>
+                        <div class="project-tech-stack">
+                            <span><i class="fab fa-laravel"></i> Laravel</span>
+                            <span><i class="fab fa-php"></i> PHP</span>
+                            <span><i class="fab fa-js"></i> JavaScript</span>
+                            <span><i class="fas fa-database"></i> MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Let's Connect</span>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h3>Let's work together</h3>
+                    <p>Whether you're looking to collaborate on medical education, invite me as a trainer, or discuss leadership opportunities — I'd love to hear from you.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <span class="contact-item-label">Email</span>
+                                <a href="mailto:abdelrahmanamin323@gmail.com">abdelrahmanamin323@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <span class="contact-item-label">Location</span>
+                                <span>Aswan, Egypt</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><i class="fas fa-university"></i></div>
+                            <div>
+                                <span class="contact-item-label">Institution</span>
+                                <span>Aswan University, Faculty of Medicine</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrap reveal">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder=" ">
+                            <label for="email">Your Email</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required placeholder=" ">
+                            <label for="subject">Subject</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required placeholder=" "></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <button type="submit" class="btn-primary submit-btn">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <div class="form-success" id="formSuccess">
+                            <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <span class="footer-logo">Abdelrahman Amin</span>
+                    <p>Medical Student · Educator · Leader</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/abdelrahman-amin-794a64276" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/hldkujvds target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="mailto:abdelrahmanamin323@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Abdelrahman Amin. All rights reserved.</p>
+                <a href="#home" class="scroll-top-btn" aria-label="Back to top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
